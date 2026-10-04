@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Эр Табылды — кыргыздын элдик эпосу</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;800&family=Alegreya+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --ink:#1B2430; --paper:#EEF1F3; --red:#B5251D; --gold:#E0A526; --sky:#1F5F8B; --muted:#4D5967; }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { margin:0; background:var(--paper); color:var(--ink); font-family:"Alegreya Sans", system-ui, sans-serif; font-size:1.15rem; line-height:1.6; }
+  .band {
+    height:18px; background-color:var(--gold);
+    background-image:
+      linear-gradient(135deg, var(--red) 25%, transparent 25%),
+      linear-gradient(225deg, var(--red) 25%, transparent 25%),
+      linear-gradient(315deg, var(--red) 25%, transparent 25%),
+      linear-gradient(45deg,  var(--red) 25%, transparent 25%);
+    background-size:18px 18px; background-position:-9px 0, -9px 0, 0 0, 0 0;
+  }
+  .wrap { max-width:44rem; margin:0 auto; padding:0 1.25rem; }
+  header { padding:4rem 0 2.5rem; }
+  h1 { font-family:"Alegreya", Georgia, serif; font-weight:800; font-size:clamp(3rem,12vw,6rem); line-height:.95; letter-spacing:-.02em; margin:0 0 1.25rem; color:var(--red); }
+  .lead { font-family:"Alegreya", Georgia, serif; font-size:1.45rem; line-height:1.45; max-width:36rem; margin:0; }
+  figure.video { margin:0 0 3rem; }
+  .frame { aspect-ratio:16/9; background:var(--ink); border:4px solid var(--ink); outline:3px solid var(--gold); }
+  .frame video, .frame iframe { width:100%; height:100%; display:block; border:0; }
+  figcaption { margin-top:.6rem; color:var(--muted); font-size:1rem; }
+  section { margin-bottom:2.75rem; }
+  h2 { font-family:"Alegreya", Georgia, serif; font-weight:800; font-size:1.9rem; margin:0 0 .6rem; color:var(--sky); }
+  h3 { font-family:"Alegreya", Georgia, serif; font-size:1.3rem; margin:1.5rem 0 .4rem; }
+  p { margin:0 0 1rem; max-width:38rem; }
+  .brothers { display:grid; gap:1rem; grid-template-columns:1fr 1fr; margin:1.25rem 0; }
+  .brothers div { padding:1rem 1.1rem; background:#fff; border-left:6px solid var(--gold); }
+  .brothers div:first-child { border-left-color:var(--red); }
+  .brothers strong { display:block; font-family:"Alegreya", Georgia, serif; font-size:1.3rem; }
+  @media (max-width:34rem) { .brothers { grid-template-columns:1fr; } }
+  .steps { list-style:none; counter-reset:s; padding:0; margin:1.25rem 0; max-width:38rem; }
+  .steps li { counter-increment:s; position:relative; padding:0 0 1rem 3rem; }
+  .steps li::before { content:counter(s); position:absolute; left:0; top:0; width:2.1rem; height:2.1rem; border-radius:50%; background:var(--red); color:#fff; font-family:"Alegreya", Georgia, serif; font-weight:800; text-align:center; line-height:2.1rem; }
+  .steps strong, .points strong { font-family:"Alegreya", Georgia, serif; font-size:1.25rem; }
+  .points { list-style:none; padding:0; margin:0 0 1.25rem; max-width:38rem; }
+  .points li { padding:.5rem 0 .5rem 1rem; border-left:4px solid var(--gold); margin-bottom:.6rem; background:#fff; }
+  .points strong { display:block; }
+  footer { padding:1.5rem 0 3rem; color:var(--muted); font-size:1rem; }
+</style>
+</head>
+<body>
+
+<div class="band"></div>
+
+<header class="wrap">
+  <h1>Эр Табылды</h1>
+  <p class="lead">Элин чет жактан басып киргендерге каршы бириктирип, согушту тынчтык менен аяктаткан баатыр жөнүндөгү кыргыздын элдик эпосу.</p>
+</header>
+
+<main class="wrap">
+
+  <figure class="video">
+    <div class="frame">
+      <!-- 1-вариант: өзүңүздүн видео файлыңыз. Аны ушул барактын жанына коюп, атын src'ке жазыңыз. -->
+      <video controls preload="metadata" src="WhatsApp Video 2026-10-03 at 17.53.01.mp4"></video>
+
+      <!-- 2-вариант: YouTube видеосу. Жогорудагы <video> тегин өчүрүп, төмөнкү саптын комментарийин алып салыңыз,
+           ВАШ_ID дегенди видеонун шилтемесиндеги код менен алмаштырыңыз.
+      <iframe src="https://www.youtube.com/embed/ВАШ_ID" title="Эр Табылды" allowfullscreen></iframe>
+      -->
+    </div>
+    <figcaption>«Эр Табылды» эпосу жөнүндө видео.</figcaption>
+  </figure>
+
+  <section>
+    <h2>Бул кандай эпос</h2>
+    <p>«Эр Табылды» кыргыз элинин «кичи» баатырдык поэмаларына кирет. Ал XV–XVI кылымдарда, Орто Азияда жунгар баскынчылары үстөмдүк кылган мезгилде түзүлгөн деп болжолдонот. Негизги темалары — чет жактан басып киргендерге каршы күрөш жана уруулар ортосундагы чатакты айыптоо.</p>
+  </section>
+
+  <section>
+    <h2>Табылды ким болгон</h2>
+    <p>Табылды — Эрмекан хандын кенже уулу. Анын жана улуу агасынын ортосунда бийлик үчүн күрөш жүрөт.</p>
+    <div class="brothers">
+      <div><strong>Кудайназар</strong>Эрмекан хандын улуу уулу, Табылдынын атаандашы.</div>
+      <div><strong>Табылды</strong>Кенже уул, эл анын артынан ээрчийт.</div>
+    </div>
+    <p>Табылды ички душманды жеңет, элди баскынчыларга каршы бириктирет жана ага тынч, бактылуу турмуш алып келет.</p>
+  </section>
+
+  <section>
+    <h2>«Манастан» айырмасы</h2>
+    <p>«Манаста» жана «Курманбекте» согуш уланат, баатырларды өч алуу жетелейт. «Эр Табылды» башкача аяктайт: эки эл кыздарын бири-бирине берип, жакындашат. Поэма элдин эркиндигин жана көз карандысыздыгын даңктайт, бирок түбөлүк душмандыкка чакырбайт.</p>
+  </section>
+
+  <section>
+    <h2>Жаралуу Табылдынын Күкүк кушка кайрылуусу</h2>
+    <p>Эпостогу эң белгилүү эпизоддордун бири — жараланган баатырдын күкүк кушка кайрылган монологу. Ал Актан Тыныбековдун вариантында сакталган: мазмуну толук, композициясы эң көркөм. Эпизод XV–XVIII кылымдардагы калмак баскынчыларына каршы күрөштү чагылдырат.</p>
+
+    <h3>Талаадагы трагедиялык кырдаал</h3>
+    <ol class="steps">
+      <li><strong>Оор жаракат.</strong> Чоюн дөөмен менен согушта жарадар болот.</li>
+      <li><strong>Ээн талаа.</strong> Жанында жөлөк болор адам жок, жалгыз калат.</li>
+      <li><strong>Куш менен кайрылуу.</strong> Асманга учкан күкүккө ичиндеги кусасын айтат.</li>
+    </ol>
+
+    <h3>Монологдун негизги темалары</h3>
+    <ul class="points">
+      <li><strong>Мекенчилдик куса.</strong> Туулган жерге салам жолдоо.</li>
+      <li><strong>Муңдуу жалгыздык.</strong> Табият менен ичтен сырдашуу.</li>
+      <li><strong>Баатырдык арман.</strong> Ажал алдындагы бийик намыс.</li>
+    </ul>
+
+    <h3>Күкүк куштун образы</h3>
+    <ul class="points">
+      <li><strong>Көпүрө.</strong> Адам менен жаратылыш ортосундагы руханий байланыш.</li>
+      <li><strong>Эркиндиктин символу.</strong> Бийиктикте эркин учкан кабарчы.</li>
+      <li><strong>Үмүт шооласы.</strong> Акыркы тилекти элине жеткирүүчү кабарчы.</li>
+    </ul>
+
+    <h3>Поэтикалык каражаттар</h3>
+    <ul class="points">
+      <li><strong>Психологиялык параллелизм.</strong> Баатырдын ички дүйнөсү менен табияттын айкалышы.</li>
+      <li><strong>Кайрылуу риторикасы.</strong> «Эй, Күкүк куш» деп ички арманды эмоционалдуу билдирүү.</li>
+      <li><strong>Муңдуу ритмика.</strong> Кыргыз поэзиясынын салттуу 7–8 муундуу ыргагы.</li>
+    </ul>
+
+    <h3>Тарбиялык жана философиялык мааниси</h3>
+    <ul class="points">
+      <li><strong>Мекенчилдик рух.</strong> Акыркы мүнөттө да Мекенди жана элди кастарлоо.</li>
+      <li><strong>Адамдык туруктуулук.</strong> Катаал сыноодо сынбаган бийик эрк.</li>
+      <li><strong>Муундар байланышы.</strong> Элдик кайраттуулукту муунга өткөрүү.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Варианттары жана басылмалары</h2>
+    <p>Эпос бир нече вариантта жазылып алынган. Белгилүү варианттары Актан Тыныбеков, Дыйканбай уулу жана Жамгырчиев айткан версиялар. Орус тилине поэманы Сергей Поделков которгон, котормо 1959-жылы Фрунзеде басылып чыккан.</p>
+  </section>
+
+</main>
+
+<footer class="wrap">Материал «Кыскача адабий энциклопедия», кыргыз Википедиясы жана Табылдынын монологу жөнүндөгү презентация негизинде даярдалды.</footer>
+
+<div class="band"></div>
+
+</body>
+</html>
